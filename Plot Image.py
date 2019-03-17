@@ -15,3 +15,4 @@ print(CurrentImage.format)
 #CurrentImageGris.show()
 
 
+a=2
