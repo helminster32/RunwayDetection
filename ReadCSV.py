@@ -1,7 +1,7 @@
 import re
 import numpy as np
-from PIL import Image
-
+import cv2
+import nets
 
 filepath = "DataBase\\via_region_data.csv"
 coordinates = []
@@ -23,13 +23,15 @@ with open(filepath) as fp:
        coordinates.append([x1,x2,x3,x4,y1,y2,y3,y4])
 
        imagename = ".\\DataBase\\" + re.search(r'[0-9]*.jpg', a).group()
-       CurrentImage = Image.open(imagename)
+       CurrentImage = cv2.imread(imagename)
        images.append(np.asarray(CurrentImage))
 
 x = np.asarray(images, dtype=np.float32)
-print(x)
+print(x.shape)
 y = np.asarray(coordinates, dtype=np.float32)
-print(y)
+print(type(y))
+
+model = nets.resnet50(1280, 720, 3, 8)
 
 
 

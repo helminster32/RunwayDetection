@@ -1,7 +1,3 @@
-import re
-import numpy as np
-from PIL import Image
-import matplotlib.pyplot as plt
 import cv2
 
 x = cv2.imread(".\\DataBase\\06100.jpg")
