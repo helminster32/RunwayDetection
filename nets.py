@@ -3,18 +3,6 @@ from keras.layers import Dense, Dropout, Activation, Flatten, Input
 from keras.applications.resnet50 import ResNet50
 
 def resnet50(img_width, img_height, img_channels, output_dim):
-    """
-    Define model architecture.
-
-    # Arguments
-       img_width: Target image widht.
-       img_height: Target image height.
-       img_channels: Target image channels.
-       output_dim: Dimension of model output.
-
-    # Returns
-       model: A Model instance.
-    """
     
     # Input
     img_input = Input(shape=(img_height, img_width, img_channels))

@@ -2,6 +2,7 @@ import re
 import numpy as np
 import cv2
 import nets
+from keras.applications.resnet50 import ResNet50
 
 filepath = "DataBase\\via_region_data.csv"
 coordinates = []
@@ -29,9 +30,26 @@ with open(filepath) as fp:
 x = np.asarray(images, dtype=np.float32)
 print(x.shape)
 y = np.asarray(coordinates, dtype=np.float32)
-print(type(y))
+print(y.shape)
 
-model = nets.resnet50(1280, 720, 3, 8)
+# Input
+img_input = Input(shape=(240, 320, 3))
+
+# ResNet50
+model = ResNet50(include_top=False, weights='imagenet', input_tensor=img_input)
+x = model.output
+
+# FC layers
+x = Flatten()(x)
+x = Dense(1024)(x)
+x = Activation('relu')(x)
+x = Dropout(0.5)(x)
+x = Dense(output_dim)(x)
+x = Activation('softmax')(x)
+
+# Define steering-collision model
+model = Model(inputs=[img_input], outputs=[x])
+
 
 
 
