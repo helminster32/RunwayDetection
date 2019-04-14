@@ -51,8 +51,8 @@ def _main():
     test_datagen = data_utils.DataGenerator(rescale=1./255)
     
     # Iterator object containing testing data to be generated batch by batch
-    test_generator = test_datagen.flow_from_directory(FLAGS.test_dir,
-                                                      num_classes,
+    test_generator = test_datagen.flow_from_file(FLAGS.test_dir,
+                                                      num_coordinates,
                                                       shuffle=False,
                                                       img_mode=FLAGS.img_mode,
                                                       target_size=(FLAGS.img_height, FLAGS.img_width),

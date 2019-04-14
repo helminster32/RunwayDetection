@@ -1,7 +1,8 @@
 import os
 import numpy as np
 import cv2
-import re
+import pandas as pd
+import random
 
 import keras
 from keras import backend as K
@@ -14,17 +15,18 @@ class DataGenerator(ImageDataGenerator):
                             img_mode='grayscale', batch_size=32, shuffle=True,
                             seed=None):
 
-        return DirectoryIterator(
+        return FileIterator(
             file, num_coordinates, self, target_size=target_size, img_mode=img_mode,
             batch_size=batch_size, shuffle=shuffle, seed=seed,
             )
 
-class DirectoryIterator(Iterator):
+class FileIterator(Iterator):
 
         def __init__(self, file, num_coordinates, image_data_generator,
                  target_size=(224, 224), img_mode='grayscale',
                  batch_size=32, shuffle=True, seed=None):
-            self.file = os.path.realpath(file)
+
+            self.file = file
             self.image_data_generator = image_data_generator
             self.target_size = tuple(target_size)
 
@@ -44,73 +46,57 @@ class DirectoryIterator(Iterator):
             # Allowed image formats
             self.formats = {'png', 'jpg'}
 
-            # Number of samples in dataset
-            self.samples = 0
-
             # Filenames of all samples/images in dataset.
             self.filenames = []
             # Labels (ground truth) of all samples/images in dataset
             self.ground_truth = []
 
-            filepath = file
-
-            with open(filepath) as fp:
-                for linea in enumerate(fp):
-                    a = str(linea)
-                    x1 = int(re.search(r'(?<=x"":\[)[0-9]*', a).group())
-                    x2 = int(re.search(r'(?<=x"":\[[0-9]{3},)[0-9]{3}', a).group())
-                    x3 = int(re.search(r'(?<=x"":\[[0-9]{3},[0-9]{3},)[0-9]{3}', a).group())
-                    x4 = int(re.search(r'(?<=x"":\[[0-9]{3},[0-9]{3},[0-9]{3},)[0-9]{3}', a).group())
-
-                    y1 = int(re.search(r'(?<=y"":\[)[0-9]*', a).group())
-                    y2 = int(re.search(r'(?<=y"":\[[0-9]{3},)[0-9]{3}', a).group())
-                    y3 = int(re.search(r'(?<=y"":\[[0-9]{3},[0-9]{3},)[0-9]{3}', a).group())
-                    y4 = int(re.search(r'(?<=y"":\[[0-9]{3},[0-9]{3},[0-9]{3},)[0-9]{3}', a).group())
-
-                    self.ground_truth.append([x1, x2, x3, x4, y1, y2, y3, y4])
-
-                    imagename = ".\\DataBase\\" + re.search(r'[0-9]*.jpg', a).group()
-                    CurrentImage = cv2.imread(imagename)
-
-                    self.filenames.append(np.asarray(CurrentImage))
+            # Open csv
+            self.data = pd.read_csv(self.file)
 
             # Conversion of list into array
             self.ground_truth = np.array(self.ground_truth, dtype=K.floatx())
 
-        super(DirectoryIterator, self).__init__(self.samples,
-                                                batch_size, shuffle, seed)
+            super(FileIterator, self).__init__(
+                    batch_size, shuffle, seed)
 
-    def next(self):
+        def next(self):
 
-        with self.lock:
-            index_array, current_index, current_batch_size = next(
-                self.index_generator)
+            with self.lock:
+                index_array, current_index, current_batch_size = next(
+                    self.index_generator)
 
-        # Initialize batch of images
-        batch_x = np.zeros((current_batch_size,) + self.image_shape,
-                           dtype=K.floatx())
-        # Initialize batch of ground truth
-        batch_y = np.zeros((current_batch_size, self.num_coordinates,),
-                           dtype=K.floatx())
+            # Initialize batch of images
+            batch_x = np.zeros((current_batch_size,) + self.image_shape,
+                               dtype=K.floatx())
+            # Initialize batch of ground truth
+            batch_y = np.zeros((current_batch_size, self.num_coordinates,),
+                               dtype=K.floatx())
 
-        grayscale = self.img_mode == 'grayscale'
+            grayscale = self.img_mode == 'grayscale'
 
-        # Build batch of image data
-        for i, j in enumerate(index_array):
-            fname = self.filenames[j]
-            x = load_img(os.path.join(self.file, fname),
-                         grayscale=grayscale,
-                         target_size=self.target_size)
-            # Data augmentation
-            x = self.image_data_generator.random_transform(x)
-            x = self.image_data_generator.standardize(x)
-            batch_x[i] = x
+            # Build batch of image data
+            # Extract random indexes
+            rows = random.randint(0, self.data.shape[0] - 1, current_batch_size)
 
-        # Build batch of labels
-        batch_y = np.array(self.ground_truth[index_array], dtype=K.floatx())
+            for i in rows:
+                # Leer de mi csv el path y el nombre de la imagen
+                x = load_img(self.data.iloc(i, 0),
+                             grayscale=grayscale,
+                             target_size=self.target_size)
+                # Data augmentation
+                x = self.image_data_generator.random_transform(x)
+                x = self.image_data_generator.standardize(x)
+                batch_x[i] = x
+                # Leer de mi csv las coordenadas
+                batch_y[i] = self.data.iloc(i, 1)
+            '''
+            # Build batch of labels
+            batch_y = np.array(self.ground_truth[index_array], dtype=K.floatx())
+            batch_y = keras.utils.to_categorical(batch_y, num_classes=self.num_classes)
+            '''
 
-        return batch_x, batch_y
-
+            return batch_x, batch_y
 
 def load_img(path, grayscale=False, target_size=None):
 

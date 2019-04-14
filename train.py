@@ -21,19 +21,7 @@ TRAIN_PHASE = 1
 
 
 def getModel(img_width, img_height, img_channels, output_dim, weights_path):
-    """
-    Initialize model.
 
-    # Arguments
-       img_width: Target image widht.
-       img_height: Target image height.
-       img_channels: Target image channels.
-       output_dim: Dimension of model output (number of classes).
-       weights_path: Path to pre-trained model.
-
-    # Returns
-       model: A Model instance.
-    """
     model = nets.resnet50(img_width, img_height, img_channels, output_dim)
 
     if weights_path:
@@ -47,15 +35,6 @@ def getModel(img_width, img_height, img_channels, output_dim, weights_path):
 
 
 def trainModel(train_data_generator, val_data_generator, model, initial_epoch):
-    """
-    Model training.
-
-    # Arguments
-       train_data_generator: Training data generated batch by batch.
-       val_data_generator: Validation data generated batch by batch.
-       model: A Model instance.
-       initial_epoch: Epoch from which training starts.
-    """
 
     # Configure training process
     model.compile(loss='categorical_crossentropy', optimizer='adam',
@@ -111,41 +90,31 @@ def _main():
     else:
         raise IOError("Unidentified image mode: use 'grayscale' or 'rgb'")
 
-    # Output dimension (7 classes/gestures)
-    num_classes = 7
+    # Output dimension (4 coordinates 8 values)
+    num_coordinates = 8
        
 
     # Generate training data with real-time augmentation
     train_datagen = data_utils.DataGenerator(rescale = 1./255)
     
     # Iterator object containing training data to be generated batch by batch
-    train_generator = train_datagen.flow_from_directory(FLAGS.train_dir,
-                                                        num_classes,
+    train_generator = train_datagen.flow_from_file(FLAGS.train_dir,
+                                                        num_coordinates,
                                                         shuffle = True,
                                                         img_mode = FLAGS.img_mode,
                                                         target_size=(img_height, img_width),
                                                         batch_size = FLAGS.batch_size)
-    
-    # Check if the number of classes in dataset corresponds to the one specified                                                    
-    assert train_generator.num_classes == num_classes, \
-                        " Not macthing output dimensions in training data."                                                    
-
 
     # Generate validation data with real-time augmentation
     val_datagen = data_utils.DataGenerator(rescale = 1./255)
     
     # Iterator object containing validation data to be generated batch by batch
-    val_generator = val_datagen.flow_from_directory(FLAGS.val_dir,
-                                                    num_classes,
+    val_generator = val_datagen.flow_from_file(FLAGS.val_dir,
+                                                    num_coordinates,
                                                     shuffle = False,
                                                     img_mode = FLAGS.img_mode,
                                                     target_size=(img_height, img_width),
                                                     batch_size = FLAGS.batch_size)
-
-    # Check if the number of classes in dataset corresponds to the one specified
-    assert val_generator.num_classes == num_classes, \
-                        " Not macthing output dimensions in validation data."
-                        
 
     # Weights to restore
     weights_path = os.path.join(FLAGS.experiment_rootdir, FLAGS.weights_fname)
@@ -161,7 +130,7 @@ def _main():
 
     # Define model
     model = getModel(img_width, img_height, img_channels,
-                        num_classes, weights_path)
+                        num_coordinates, weights_path)
 
     # Save the architecture of the network as png
     plot_arch_path = os.path.join(FLAGS.experiment_rootdir, 'architecture.png')

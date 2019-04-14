@@ -17,7 +17,6 @@ def resnet50(img_width, img_height, img_channels, output_dim):
     x = Activation('relu')(x)
     x = Dropout(0.5)(x)
     x = Dense(output_dim)(x)
-    x = Activation('softmax')(x)
     
     # Define steering-collision model
     model = Model(inputs=[img_input], outputs=[x])

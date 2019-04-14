@@ -2,14 +2,222 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cce1b2c-6efc-46a5-b5fc-40cc6b3e399c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Data Generator/DataGenerator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Generator/keras_script.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Generator/my_coordinates.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Read CSV.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Imagen reescalada.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadCSV.py" beforeDir="false" afterPath="$PROJECT_DIR$/ReadCSV.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lena.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sompic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Generator/DataGenerator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Generator/keras_script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Generator/my_coordinates.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06100.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06101.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06102.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06103.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06104.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06105.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06106.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06107.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06108.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06109.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06110.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06111.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06112.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06113.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06114.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06115.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06116.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06117.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06118.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06119.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06120.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06121.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06122.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06123.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06124.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06125.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06126.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06127.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06129.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06130.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06131.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06132.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06133.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06134.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06135.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06136.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06137.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06138.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06139.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06140.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06141.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06142.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06143.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06144.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06145.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06146.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06147.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06148.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06149.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06151.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06152.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06153.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06154.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06155.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06156.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06157.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06158.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06159.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06160.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06161.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06162.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06163.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06164.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06165.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06166.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06167.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06168.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06169.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06170.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06171.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06172.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06173.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06174.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06175.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06176.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06177.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06178.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06179.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06180.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06181.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06182.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06183.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06184.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06185.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06186.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06187.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06188.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06189.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06190.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06191.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06192.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06193.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06194.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06195.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06196.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06197.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06198.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06199.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase Reescalada/06200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06100.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06101.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06102.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06103.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06104.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06105.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06106.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06107.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06108.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06109.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06110.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06111.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06112.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06113.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06114.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06115.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06116.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06117.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06118.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06119.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06120.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06121.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06122.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06123.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06124.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06125.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06126.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06127.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06128.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06129.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06130.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06131.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06132.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06133.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06134.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06135.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06136.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06137.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06138.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06139.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06140.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06141.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06142.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06143.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06144.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06145.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06146.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06147.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06148.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06149.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06151.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06152.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06153.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06154.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06155.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06156.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06157.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06158.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06159.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06160.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06161.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06162.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06163.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06164.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06165.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06166.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06167.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06168.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06169.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06170.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06171.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06172.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06173.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06174.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06175.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06176.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06177.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06178.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06179.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06180.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06181.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06182.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06183.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06184.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06185.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06186.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06187.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06188.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06189.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06190.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06191.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06192.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06193.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06194.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06195.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06196.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06197.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06198.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06199.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/06201.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataBase/via_region_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadCSV.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reescaling.py" beforeDir="false" afterPath="$PROJECT_DIR$/Reescaling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common_flags.py" beforeDir="false" afterPath="$PROJECT_DIR$/common_flags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nets.py" beforeDir="false" afterPath="$PROJECT_DIR$/nets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +226,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Read CSV.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+              <folding>
+                <element signature="e#24#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1377">
+              <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,18 +278,27 @@
         <option value="$PROJECT_DIR$/Net.py" />
         <option value="$PROJECT_DIR$/data_utils_TFG.py" />
         <option value="$PROJECT_DIR$/Keras Script.py" />
-        <option value="$PROJECT_DIR$/Reescaling.py" />
         <option value="$PROJECT_DIR$/Data Generator/my_coordinates.py" />
         <option value="$PROJECT_DIR$/Data Generator/DataGenerator.py" />
         <option value="$PROJECT_DIR$/Data Generator/keras_script.py" />
         <option value="$PROJECT_DIR$/nets.py" />
+        <option value="$PROJECT_DIR$/Reescaling.py" />
+        <option value="$PROJECT_DIR$/Prueba.py" />
         <option value="$PROJECT_DIR$/ReadCSV.py" />
+        <option value="$PROJECT_DIR$/New Regex.py" />
+        <option value="$USER_HOME$/Desktop/Carlos Roberto Código/Carlos Roberto Código/Prueba.py" />
+        <option value="$PROJECT_DIR$/New Read CSV.py" />
+        <option value="$PROJECT_DIR$/Read CSV" />
+        <option value="$USER_HOME$/Desktop/Carlos Roberto Código/Carlos Roberto Código/Visual-Runway-detection/data_utils.py" />
+        <option value="$PROJECT_DIR$/data_utils.py" />
+        <option value="$PROJECT_DIR$/common_flags.py" />
+        <option value="$PROJECT_DIR$/Read CSV.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="436" />
-    <option name="y" value="-8" />
+    <option name="x" value="788" />
+    <option name="y" value="132" />
     <option name="width" value="854" />
     <option name="height" value="1047" />
   </component>
@@ -71,10 +310,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="RunwayDetection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RunwayDetection" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="RunwayDetection" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
@@ -83,6 +325,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -92,6 +335,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\David\PycharmProjects\RunwayDetection" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\David\PycharmProjects\RunwayDetection" />
+      <recent name="C:\Users\David\PycharmProjects\RunwayDetection\Total" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -106,8 +353,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ReadCSV">
-    <configuration name="Keras Script" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Read CSV">
+    <configuration name="New Read CSV" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="RunwayDetection" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,7 +366,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Keras Script.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\David\PycharmProjects\RunwayDetection\Read CSV.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +375,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Plot Image" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="New Regex" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="RunwayDetection" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -140,7 +387,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\David\PycharmProjects\RunwayDetection\Plot Result.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/New Regex.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Prueba" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="RunwayDetection" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prueba.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Read CSV" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="RunwayDetection" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Read CSV.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,27 +451,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ReadCSV.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ReadImagesTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="RunwayDetection" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ReadImagesTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -233,34 +501,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="nets" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="RunwayDetection" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nets.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Read CSV" />
+        <item itemvalue="Python.New Read CSV" />
+        <item itemvalue="Python.New Regex" />
+        <item itemvalue="Python.Prueba" />
         <item itemvalue="Python.Reescaling" />
-        <item itemvalue="Python.Keras Script" />
-        <item itemvalue="Python.nets" />
-        <item itemvalue="Python.ReadImagesTest" />
-        <item itemvalue="Python.Plot Image" />
       </list>
     </recent_temporary>
   </component>
@@ -303,14 +550,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19599578" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33261105" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32827735" />
@@ -347,11 +595,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Prueba" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/RunwayDetection" />
-    <entry file="file://D:/dsg/Runways Detection/Runway Detection.py" />
-    <entry file="file://$PROJECT_DIR$/../Runways Detection/Runway Detection.py" />
-    <entry file="file://E:/12032019/PycharmProjects/RunwayDetection/ReadCSV.py" />
-    <entry file="file://$USER_HOME$/Anaconda3/envs/RunwayDetection/Lib/site-packages/numpy/_distributor_init.py" />
     <entry file="file://$USER_HOME$/Anaconda3/envs/RunwayDetection/Lib/site-packages/numpy/__init__.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/re.pyi">
       <provider selected="true" editor-type-id="text-editor" />
@@ -359,9 +602,7 @@
     <entry file="file://$PROJECT_DIR$/Some images.py" />
     <entry file="file://$PROJECT_DIR$/Import images.py" />
     <entry file="file://$PROJECT_DIR$/Import coordinates.py" />
-    <entry file="file://$PROJECT_DIR$/DataBase/06103.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/DataBase/06103.jpg" />
     <entry file="file://$PROJECT_DIR$/ReadImagesTest.py" />
     <entry file="file://$PROJECT_DIR$/Net.py" />
     <entry file="file://D:/TFG/Visual-Runway-detection-master/nets.py">
@@ -387,33 +628,15 @@
     <entry file="file://$USER_HOME$/TFG/Visual-Runway-detection/common_flags.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataBase Reescalada/06193.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataBase Reescalada/06190.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataBase Reescalada/06194.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataBase Reescalada/06200.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataBase Reescalada/06100.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sompic.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lena.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Imagen reescalada.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data Generator/my_coordinates.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/DataBase Reescalada/06193.jpg" />
+    <entry file="file://$PROJECT_DIR$/DataBase Reescalada/06190.jpg" />
+    <entry file="file://$PROJECT_DIR$/DataBase Reescalada/06194.jpg" />
+    <entry file="file://$PROJECT_DIR$/DataBase Reescalada/06200.jpg" />
+    <entry file="file://$PROJECT_DIR$/DataBase Reescalada/06100.jpg" />
+    <entry file="file://$PROJECT_DIR$/sompic.jpg" />
+    <entry file="file://$PROJECT_DIR$/lena.jpg" />
+    <entry file="file://$PROJECT_DIR$/Imagen reescalada.jpg" />
+    <entry file="file://$PROJECT_DIR$/Data Generator/my_coordinates.py" />
     <entry file="file://D:/TFG/Visual-Runway-detection-master/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1641">
@@ -423,26 +646,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data Generator/keras_script.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Reescaling.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Generator/keras_script.py" />
     <entry file="file://$PROJECT_DIR$/Plot Result.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -450,47 +654,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_utils_TFG.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-672">
-          <caret line="74" column="31" selection-start-line="74" selection-start-column="31" selection-end-line="74" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data Generator/DataGenerator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data_utils_TFG.py" />
+    <entry file="file://$PROJECT_DIR$/Data Generator/DataGenerator.py" />
     <entry file="file://$PROJECT_DIR$/Keras Script.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ReadCSV.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="48" lean-forward="true" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nets.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -508,6 +677,152 @@
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="2633" selection-start-line="2633" selection-end-line="2633" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Total/01713.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Total/via_region_data.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/zero_to_deep_learning_udemy/course/6 Convolutional Neural Networks.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Carlos Roberto Código/Carlos Roberto Código/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1581">
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReescalingDirectory.py" />
+    <entry file="file://$PROJECT_DIR$/Reescale.py" />
+    <entry file="file://$PROJECT_DIR$/Reescaling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadCSV.py" />
+    <entry file="file://$PROJECT_DIR$/New Regex.py" />
+    <entry file="file://$USER_HOME$/Desktop/Carlos Roberto Código/Carlos Roberto Código/Prueba.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="e#24#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Prueba.py" />
+    <entry file="file://$USER_HOME$/Desktop/Carlos Roberto Código/Carlos Roberto Código/data_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-680">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2883">
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Visual-Runway-detection-master/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2815">
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common_flags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="25" column="62" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Visual-Runway-detection-master/data_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Carlos Roberto Código/Carlos Roberto Código/Visual-Runway-detection/data_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="211" column="17" selection-start-line="211" selection-start-column="17" selection-end-line="211" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Read CSV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="e#24#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1377">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
